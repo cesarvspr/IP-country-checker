@@ -31,3 +31,7 @@ If the ip address country location matches the given whitelist countries the res
 
 At startup the application will setup a server application on port :8013 (can be easily changed). Both should be done in less than 5 seconds.
 Then dataset is scraped from web and loaded inside runtime memory. A cron job will run everyday at 00:30 to sync with the latest dataset available. 
+
+### Why store in memory during runtime?
+
+This application has response times between 4~3ms, due to not been necessary to access any external database.
