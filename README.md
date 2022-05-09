@@ -16,7 +16,7 @@ curl --location --request GET 'localhost:8013/avoxi/login?ip=32.199.77.157&white
 - Endpoint: /login GET
 
 The ip should be a string sent as request params.
-The white list should be an string containing ISO codes separated by comma.
+The white list should be an string containing ISO codes separated by comma, application isn't case sensitive.
 #### Example
 ```
 - whitelist=EUA,BR
