@@ -1,5 +1,3 @@
-Avoxi Challenge
-
 ## Description
 
 This project a microservice that is daily update with the GeoLite country dataset with an api endpoint to authorize login based on the informed ip address.
