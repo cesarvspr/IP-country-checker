@@ -13,3 +13,5 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+__debug_bin
+GeoLite2-Country_20220503/GeoLite2-Country.mmdb
