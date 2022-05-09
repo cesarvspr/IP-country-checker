@@ -1,6 +1,6 @@
 ## Description
 
-This project a microservice that is daily update with the GeoLite country dataset with an api endpoint to authorize login based on the informed ip address.
+This project is a microservice that does daily updates with the GeoLite country dataset through an api endpoint to authorize login based on the informed ip address.
 
 ### The request
 - Success example
@@ -24,6 +24,10 @@ The white list should be an string containing ISO codes separated by comma, appl
 ### The response
 
 If the ip address country location matches the given whitelist countries the response will be a 200 status. Otherwise a status 417 should be expected.
+
+### Launching
+
+You can use the .vccode launcher to start the application or hit ```go run main.go``` inside root folder.
 
 ### How it works
 
