@@ -27,7 +27,7 @@ If the ip address country location matches the given whitelist countries the res
 
 ### Launching
 
-You can use the .vccode launcher to start the application or hit ```go run main.go``` inside root folder.
+You can use the .vscode launcher to start the application or hit ```go run main.go``` inside root folder.
 
 ### How it works
 
